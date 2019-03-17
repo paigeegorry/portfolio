@@ -2,7 +2,7 @@ import React from 'react';
 import { Nav, Head, Section } from '../styles/HeaderStyles';
 import { Link } from 'react-router-dom';
 
-function Header() {
+function Home() {
   return (
     <>
       <Head>
@@ -31,4 +31,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default Home;
