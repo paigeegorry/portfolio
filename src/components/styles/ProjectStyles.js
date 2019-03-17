@@ -21,6 +21,7 @@ export const Div = styled.div`
 
   img {
     width: 95vw;
+    box-shadow: 4px 4px black;
   }
 
   h3, h4, p {
@@ -74,4 +75,27 @@ export const Nav = styled.nav`
     background: darkslategray;
     color: white;
   }
+`;
+
+export const GridView = styled.section`
+  @media (min-width: 1000px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;  
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+    
+    img {
+      width: 45vw;
+      align-self: center;
+    }
+    
+    p, h3, h4 {
+      align-self: center;
+    }
+    
+    div {
+      width: 45vw;
+    }
+  }
+
 `;
