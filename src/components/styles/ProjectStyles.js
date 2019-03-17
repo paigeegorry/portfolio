@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 export const Header = styled.h2`
-  @import url('https://fonts.googleapis.com/css?family=Montserrat');
-  font-family: Montserrat, sans-serif;
+  @import url('https://fonts.googleapis.com/css?family=Raleway');
+  font-family: Raleway, sans-serif;
   font-size: 3.5em;
   text-align: right;
   
@@ -24,7 +24,6 @@ export const Div = styled.div`
   }
 
   h3, h4, p {
-    @import url('https://fonts.googleapis.com/css?family=Raleway');
     font-family: Raleway, sans-serif;
     margin: 20px 0px 0px 0px;
   }

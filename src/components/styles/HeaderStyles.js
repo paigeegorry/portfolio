@@ -54,14 +54,16 @@ export const Section = styled.section`
   margin-top: 150px;
 
   a {
-      font-family: Montserrat, sans-serif;
-      color: gray;
-      text-decoration: none;
-      font-size: 1.25em;
+    font-family: Montserrat, sans-serif;
+    text-decoration: none;
+    color: darkslategray;
+    font-style: italic;
+    font-size: 1.25em;
   }
   a:hover {
-    font-weight: bolder;
-    font-style: italic;
+    font-weight: bold;
+    background: darkslategray;
+    color: white;
   }
 `;
 
