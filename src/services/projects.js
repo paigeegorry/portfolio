@@ -17,7 +17,7 @@ export const getProjects = () => {
       tech: 'React, Redux, Marvel API'
     },
     {
-      img: 'src/assets/are-you-a-wizard.png',
+      img: 'https://res.cloudinary.com/dkrup6iyl/image/upload/v1552870581/Screen_Shot_2019-03-17_at_5.53.41_PM.png',
       title: 'Are You A Wizard?',
       subtitle: 'An interactive Harry-Potter-themed personality quiz where you can learn your wizarding world fate from start to finish!',
       github: 'https://github.com/Team-8-ball/team-8-ball.github.io',
