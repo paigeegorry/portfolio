@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import Projects from '../components/app/Projects';
+import Projects from '../components/project/Projects';
 import { getProjects } from '../selectors/projects';
 import { fetchProjects } from '../actions/projects';
 

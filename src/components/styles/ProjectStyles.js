@@ -64,6 +64,8 @@ export const Nav = styled.nav`
   font-family: Raleway, sans-serif;
   font-size: 1.5em;
   text-align: center;
+  display: flex;
+  justify-content: space-around;
 
   a {
     text-decoration: none;

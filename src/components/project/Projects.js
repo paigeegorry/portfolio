@@ -22,6 +22,7 @@ function Projects({ projects }) {
 
       <Nav>
         <Link to="/">Home</Link>
+        <Link to="/about">About</Link>
       </Nav>
     </>
   );

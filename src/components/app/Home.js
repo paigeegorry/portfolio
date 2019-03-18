@@ -25,7 +25,8 @@ function Home() {
       </Nav>
 
       <Section>
-        <Link to="/projects">View Projects</Link>
+        <Link to="/projects">Projects</Link>
+        <Link to="/about">About</Link>
       </Section>
     </>
   );
