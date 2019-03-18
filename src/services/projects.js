@@ -13,7 +13,7 @@ export const getProjects = () => {
       title: 'Marvel SuperSearch',
       subtitle: 'An interactive search for your favorite Marvel Superheroes!',
       github: 'https://github.com/two-time-fool/urban-waffle',
-      site: 'https://github.com/two-time-fool/urban-waffle',
+      site: 'https://xenodochial-spence-f58fd4.netlify.com/',
       tech: 'React, Redux, Marvel API'
     },
     {
