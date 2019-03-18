@@ -1,20 +1,14 @@
 import React from 'react';
-import { Header, Div, Nav, GridView } from '../styles/ProjectStyles';
+import { Header, Nav, GridView } from '../styles/ProjectStyles';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
+import Project from './Project';
 
 function Projects({ projects }) {
   
   const ProjectList = projects.map((project, i) => {
-    const { img, title, subtitle, github, site, tech } = project;
     return (
-      <Div key={i}>
-        <img src={img} alt={title} />
-        <h3>{title}</h3>
-        <h4>{subtitle}</h4>
-        <p><a href={github}>GitHub</a> | <a href={site}>Site</a></p>
-        <p>Stack: {tech}</p>
-      </Div>
+      <Project project={project} key={i} />
     );
   });
 
