@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Div = styled.div`
   @import url('https://fonts.googleapis.com/css?family=Raleway');
   font-family: Raleway, sans-serif;
-  
+
   img {
     border-radius: 100px;
     width: 40vw;
@@ -16,7 +16,7 @@ export const Div = styled.div`
   }
 
   section {
-    float: right;
+    float: left;
     ul {
       padding: 0px;
       li {
@@ -26,7 +26,8 @@ export const Div = styled.div`
   }
 
   nav {
-    margin-top: 150px;
+    float: none;
+    clear: both;
   }
 
   @media (max-width:600px) {
