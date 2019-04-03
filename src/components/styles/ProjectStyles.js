@@ -68,13 +68,20 @@ export const Nav = styled.nav`
   justify-content: space-around;
 
   a {
+    margin: 50px 5px 50px 5px;
+    padding: 10px;
+    align-self: center;
+
+    font-size: 1.15em;
+    background: black;
+    text-transform: lowercase;
     text-decoration: none;
-    color: darkslategray;
+    color: white;
     font-style: italic;
   }
   a:hover {
     font-weight: bold;
-    background: darkslategray;
+    background: slategray;
     color: white;
   }
 `;

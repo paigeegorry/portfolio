@@ -49,20 +49,29 @@ export const Nav = styled.nav`
 
 export const Section = styled.section`
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+
+  font-family: Montserrat, sans-serif;
 
   margin-top: 150px;
+  margin: 0 auto;
+  width: 50vw;
 
   a {
-    font-family: Montserrat, sans-serif;
+    margin: 50px 5px 50px 5px;
+    padding: 10px;
+    align-self: center;
+
+    font-size: 1.5em;
+    background: black;
+    text-transform: lowercase;
     text-decoration: none;
-    color: darkslategray;
+    color: white;
     font-style: italic;
-    font-size: 1.25em;
   }
   a:hover {
     font-weight: bold;
-    background: darkslategray;
+    background: slategray;
     color: white;
   }
 `;
