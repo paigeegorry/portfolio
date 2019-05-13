@@ -19,12 +19,37 @@ export const getProjects = () => {
       tech: 'Node.js, MongoDB, Express, Jest'
     },
     {
+      img: 'https://res.cloudinary.com/dkrup6iyl/image/upload/v1557787856/Screen_Shot_2019-05-13_at_3.47.47_PM.png',
+      title: 'Hummingbird',
+      subtitle: 'Twitter clone!',
+      why: 'An homage to Twitter, Hummingbird is a full stack Twitter clone designed with quirky user stories in mind.',
+      github: 'https://github.com/paigeegorry/devsign',
+      site: 'https://hummingbird-gorry.netlify.com',
+      tech: 'React, Redux, Node, Express, MongoDB, Auth0'
+    },
+    {
       img: 'https://res.cloudinary.com/dkrup6iyl/image/upload/v1552864945/Screen_Shot_2019-03-17_at_4.21.24_PM.png',
       title: 'Marvel SuperSearch',
-      subtitle: 'An interactive search for your favorite Marvel Superheroes!',
+      why: 'Simple third-party API app to search for pictures of your favorite Marvel superhero by keyword.',
       github: 'https://github.com/two-time-fool/urban-waffle',
       site: 'https://xenodochial-spence-f58fd4.netlify.com/',
       tech: 'React, Redux, Marvel API'
+    },
+    {
+      img: 'https://res.cloudinary.com/dkrup6iyl/image/upload/v1557787856/Screen_Shot_2019-05-13_at_3.48.52_PM.png',
+      title: 'Spellbook',
+      why: 'Using the Potter API, this front-end application allows users to filter spells by type and view details about their ability.',
+      github: 'https://github.com/paigeegorry/spellbook',
+      site: 'https://gorry-spellbook.netlify.com/',
+      tech: 'React, Redux, Potter Api'
+    },
+    {
+      img: 'https://res.cloudinary.com/dkrup6iyl/image/upload/v1557787858/Screen_Shot_2019-05-13_at_3.49.06_PM.png',
+      title: 'Horoscopes',
+      why: 'This front-end app allows users to check their horoscope based on their zodiac sign for the current day, week, month, and year.',
+      github: 'https://github.com/paigeegorry/horoscopes',
+      site: 'https://horoscopes.netlify.com',
+      tech: 'React, Redux, Horoscope API'
     },
     {
       img: 'https://res.cloudinary.com/dkrup6iyl/image/upload/v1552866813/Screen_Shot_2019-03-17_at_4.52.18_PM.png',
