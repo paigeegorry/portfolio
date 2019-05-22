@@ -6,7 +6,7 @@ function Project({ project }) {
   const { img, title, subtitle, github, site, tech } = project;
   return (
     <Div>
-      <img src={img} alt={title} />
+      <a href={site}><img src={img} alt={title} /></a>
       <div>
         <span>
           {project.new && <h4 id="new">NEW!!</h4>}
