@@ -15,7 +15,7 @@ function Projects({ projects }) {
   return (
     <>
       <Header>Projects</Header>
-      
+
       <GridView>
         {ProjectList}
       </GridView>

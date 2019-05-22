@@ -2,7 +2,8 @@ import styled from 'styled-components';
 
 export const Header = styled.h2`
   @import url('https://fonts.googleapis.com/css?family=Raleway');
-  font-family: Raleway, sans-serif;
+  @import url('https://fonts.googleapis.com/css?family=Montserrat:400,600|Quicksand&display=swap');
+  font-family: Montserrat, sans-serif;
   font-size: 3.5em;
   text-align: right;
   
@@ -18,15 +19,45 @@ export const Div = styled.div`
   flex-direction: column;
   margin-bottom: 20px;
   text-align: right;
+  justify-content: space-around;
+
+  div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    span {
+      width: 300px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
 
   img {
     width: 95vw;
     box-shadow: 4px 4px black;
   }
 
-  h3, h4, p {
-    font-family: Raleway, sans-serif;
-    margin: 20px 0px 0px 0px;
+  img:hover {
+    opacity: 0.5;
+  }
+
+  #new {
+    color: red;
+  }
+
+  h2, h3, h4, p {
+    font-family: Montserrat, sans-serif;
+    margin: 10px 0px 0px 0px;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  h3 {
+    text-transform: uppercase;
   }
 
   p {
@@ -61,7 +92,7 @@ export const Div = styled.div`
 `;
 
 export const Nav = styled.nav`
-  font-family: Raleway, sans-serif;
+  font-family: Montserrat, sans-serif;
   font-size: 1.5em;
   text-align: center;
   display: flex;
