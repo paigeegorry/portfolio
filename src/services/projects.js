@@ -1,15 +1,6 @@
 export const getProjects = () => {
   return Promise.all([
     {
-      img: 'https://res.cloudinary.com/dkrup6iyl/image/upload/v1554070205/Screen_Shot_2019-03-31_at_2.55.53_PM.png',
-      title: 'Q Bot',
-      subtitle: 'Slack bot that adds student questions to real time database.',
-      new: false,
-      github: 'https://github.com/team-q/q-bot-sandbox',
-      site: 'https://qbot.alchemycodelab.io/',
-      tech: 'Firestore, Slack API, Firebase, ReactJS, React Hooks, Google Cloud Functions'
-    },
-    {
       img: 'https://res.cloudinary.com/dkrup6iyl/image/upload/v1558546077/Screen_Shot_2019-05-22_at_10.27.23_AM.png',
       title: 'Last Airbender API',
       subtitle: 'Fetch your favorite Last Airbender character info from these seven routes!',
@@ -17,6 +8,24 @@ export const getProjects = () => {
       github: 'https://github.com/paigeegorry/last-airbender-api',
       site: 'https://last-airbender-api.herokuapp.com',
       tech: 'Express, Node, MongoDB, Node-HTML-Parser'
+    },
+    {
+      img: 'https://res.cloudinary.com/dkrup6iyl/image/upload/v1562704517/Screen_Shot_2019-06-19_at_11.22.42_AM.png',
+      title: 'Dragon Age API',
+      subtitle: 'Open Source API that provides character information from the BioWare series',
+      new: true,
+      github: 'https://github.com/paigeegorry/dragon-age-api',
+      site: 'https://dragon-age-api.herokuapp.com',
+      tech: 'Express, Node, MongoDB, Node-HTML-Parser'
+    },
+    {
+      img: 'https://res.cloudinary.com/dkrup6iyl/image/upload/v1554070205/Screen_Shot_2019-03-31_at_2.55.53_PM.png',
+      title: 'Q Bot',
+      subtitle: 'Slack bot that adds student questions to real time database.',
+      new: false,
+      github: 'https://github.com/team-q/q-bot-sandbox',
+      site: 'https://qbot.alchemycodelab.io/',
+      tech: 'Firestore, Slack API, Firebase, ReactJS, React Hooks, Google Cloud Functions'
     },
     {
       img: 'https://res.cloudinary.com/dkrup6iyl/image/upload/v1552866457/Screen_Shot_2019-03-17_at_4.46.50_PM.png',
@@ -49,7 +58,7 @@ export const getProjects = () => {
       img: 'https://res.cloudinary.com/dkrup6iyl/image/upload/v1557787856/Screen_Shot_2019-05-13_at_3.48.52_PM.png',
       title: 'Spellbook',
       subtitle: 'Explore spells from the Harry Potter series based on type.',
-      new: true,
+      new: false,
       github: 'https://github.com/paigeegorry/spellbook',
       site: 'https://gorry-spellbook.netlify.com',
       tech: 'React, Redux, Potter API'
@@ -58,7 +67,7 @@ export const getProjects = () => {
       img: 'https://res.cloudinary.com/dkrup6iyl/image/upload/v1557787858/Screen_Shot_2019-05-13_at_3.49.06_PM.png',
       title: 'Horoscopes',
       subtitle: 'Look up your horoscope for the day, week, month, or year!', 
-      new: true,
+      new: false,
       github: 'https://github.com/paigeegorry/horoscopes',
       site: 'https://horoscopes.netlify.com',
       tech: 'React, Redux, Horoscope API'
