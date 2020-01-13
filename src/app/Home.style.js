@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const Header = styled.header`
+export const Header = styled.header`
   position: absolute;
   left: 50%;
   top: 50%;
@@ -28,5 +28,3 @@ const Header = styled.header`
     }
   }
 `;
-
-export default Header

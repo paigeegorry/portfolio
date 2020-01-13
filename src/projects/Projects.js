@@ -1,20 +1,7 @@
 import React from 'react';
-import styled from 'styled-components';
+import { Main } from './Projects.style';
 import { getProjects } from '../services/projects';
 import ProjectCard from './ProjectCard';
-
-const Main = styled.main`
-  .project-list {
-    display: grid;
-    grid-template-columns: 3fr 3fr;
-    grid-column-gap: 50px;
-    padding: 0px 50px 0px 50px;
-  }
-  h1 {
-    text-align: center;
-    text-shadow: 1px 1px gray;
-  }
-`;
 
 export default function Projects() {
   const listOfProjects = getProjects().map((project, idx) => {
@@ -22,10 +9,13 @@ export default function Projects() {
   })
   return (
     <Main>
-      <h1>projects</h1>
-      <div className="project-list">
-        {listOfProjects}
-      </div>
+      <header class="animated fadeIn">
+        <h1>projects</h1>
+        <a href="/">go back</a>
+      </header>
+        <div className="project-list">
+          {listOfProjects}
+        </div>
     </Main>
   )
 }

@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from './Home.style.js'
+import { Header } from './Home.style.js'
 
-function Home() {
+export default function Home() {
   return (
     <Header>
       <div class="animated fadeIn">
@@ -14,5 +14,3 @@ function Home() {
     </Header>
   );
 }
-
-export default Home;
