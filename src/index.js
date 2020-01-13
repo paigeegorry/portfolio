@@ -1,14 +1,12 @@
 import React from 'react';
-import { render } from 'react-dom';
-import App from './components/app/App';
-import store from './store';
-import { Provider } from 'react-redux';
-import Favicon from 'react-favicon';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './app/App.js';
+import * as serviceWorker from './serviceWorker';
 
-render(
-  <Provider store={store}>
-    <Favicon url="https://res.cloudinary.com/dkrup6iyl/image/upload/v1558733722/dev-icon.png" />,
-    <App />
-  </Provider>,
-  document.getElementById('root')
-);
+ReactDOM.render(<App />, document.getElementById('root'));
+
+// If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: https://bit.ly/CRA-PWA
+serviceWorker.unregister();
