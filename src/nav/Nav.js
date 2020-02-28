@@ -6,9 +6,9 @@ import { SocialIcon } from 'react-social-icons';
 export default function Nav() {
   return (
     <Menu styles={styles}>
-      <a id="home" className="menu-item" href="/">Home</a>
-      <a id="projects" className="menu-item" href="/projects">Projects</a>
-      <a id="about" className="menu-item" href="/about">About</a>
+      <a id="home" className="menu-item" href="/">home</a>
+      <a id="projects" className="menu-item" href="/projects">projects</a>
+      <a id="about" className="menu-item" href="/about">about</a>
       <span className="social" style={{marginTop: '18px'}}>
         <SocialIcon url="https://github.com/paigeegorry" network="github" bgColor="#ffff" style={{ height: 25, width: 25 }}  />
         <SocialIcon url="mailto: paigeegorry@gmail.com" network="email" bgColor="#ffff" style={{ height: 25, width: 25 }}  />

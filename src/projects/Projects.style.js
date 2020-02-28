@@ -9,20 +9,27 @@ export const Main = styled.main`
   }
   header {
     text-align: center;
-    margin-bottom: 40px;
-    a {
-      opacity: 30%;
-      text-decoration: none;
-      color: black;
-      font-size: .75rem;
-      font-weight: bold;
-    }
-    a:hover {
-      opacity: 70%;
-    }
+    margin-bottom: 50px;
+    margin-top: 0px;
     h1 {
       text-shadow: 1px 1px gray;
       margin-bottom: 10px;
     }
+  }
+  .top {
+    font-size: 1.5rem;
+    opacity: 30%;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .top:hover {
+    opacity: 70%;
   }
 `;

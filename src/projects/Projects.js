@@ -11,11 +11,11 @@ export default function Projects() {
     <Main>
       <header class="animated fadeIn">
         <h1>projects</h1>
-        <a href="/">go back</a>
       </header>
-        <div className="project-list">
-          {listOfProjects}
-        </div>
+      <div className="project-list">
+        {listOfProjects}
+      </div>
+      <a href="#top" className="top">back to top</a>
     </Main>
   )
 }
